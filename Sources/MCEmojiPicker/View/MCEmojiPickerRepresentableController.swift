@@ -20,6 +20,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+#if canImport(UIKit)
+
 import SwiftUI
 
 @available(iOS 13.0, *)
@@ -161,3 +163,4 @@ extension MCEmojiPickerRepresentableController {
         }
     }
 }
+#endif

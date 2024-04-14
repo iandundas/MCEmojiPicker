@@ -22,6 +22,9 @@
 
 import SwiftUI
 
+
+#if canImport(UIKit)
+
 @available(iOS 13, *)
 extension View {
     /// The method adds a macOS style emoji picker.
@@ -60,3 +63,4 @@ extension View {
         )
     }
 }
+#endif

@@ -20,6 +20,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+
+#if canImport(UIKit)
+
 import Foundation
 
 /// The main model that is used to configure the main collection.
@@ -65,3 +68,4 @@ enum MCEmojiCategoryType: Int, CaseIterable {
         }
     }
 }
+#endif
