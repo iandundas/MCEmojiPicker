@@ -21,6 +21,8 @@
 // SOFTWARE.
 
 import Foundation
+
+#if canImport(UIKit)
 import UIKit.UIDevice
 
 /// Protocol for the `MCUnicodeManager`.
@@ -11397,3 +11399,4 @@ final class MCUnicodeManager: MCUnicodeManagerProtocol {
     )
     
 }
+#endif

@@ -19,7 +19,7 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
-
+#if canImport(UIKit)
 import UIKit
 
 /// The class where the background is drawn for `MCEmojiPreviewView`.
@@ -216,3 +216,4 @@ extension MCEmojiPreviewBackgroundView {
         backgroundPath = path.cgPath
     }
 }
+#endif

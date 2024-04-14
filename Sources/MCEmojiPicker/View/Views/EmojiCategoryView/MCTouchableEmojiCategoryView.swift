@@ -20,6 +20,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+#if canImport(UIKit)
+
 import UIKit
 
 /// Delegate for handling touch gesture.
@@ -114,3 +116,4 @@ final class MCTouchableEmojiCategoryView: UIView {
         ])
     }
 }
+#endif
